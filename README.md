@@ -211,9 +211,9 @@ This project implements a complete multi-agent DSL framework.
 
 ---
 
-## 📚 Related Work and Academic Positioning
+## Related Work and Academic Positioning
 
-### 🔬 Multi-Agent Systems Literature Review
+### Multi-Agent Systems Literature Review
 
 Multi-Agent Systems (MAS) represent a paradigm in artificial intelligence where multiple autonomous agents interact within an environment to achieve individual or collective goals. These systems are characterized by properties such as autonomy, local views, decentralization, and social ability, enabling them to solve complex problems that are difficult for monolithic systems to address.
 
@@ -225,7 +225,7 @@ Multi-Agent Systems (MAS) represent a paradigm in artificial intelligence where 
 **Key Applications:**
 MAS have been successfully applied across diverse domains including robotics, distributed control systems, smart grids, healthcare management, and intelligent transportation systems. The flexibility and scalability of MAS make them particularly suitable for complex, dynamic environments where centralized control is impractical.
 
-### 🛠️ DSL Framework Related Work Analysis
+### DSL Framework Related Work Analysis
 
 Domain-Specific Languages (DSLs) tailored for Multi-Agent Systems development provide specialized abstractions that simplify the design and implementation of agent-based systems. Several notable frameworks have emerged in this space:
 
@@ -239,33 +239,33 @@ Domain-Specific Languages (DSLs) tailored for Multi-Agent Systems development pr
 - **Domain Specificity**: Optimized for particular application scenarios
 - **Maintainability**: Enhances system modularity and extensibility
 
-### 🎯 Technical Roadmap Academic Positioning
+### Technical Roadmap Academic Positioning
 
 Our framework positions itself within the academic landscape as follows:
 
-#### 📋 Research Domain Positioning
+#### Research Domain Positioning
 - **Multi-Agent System Design**: Providing efficient agent coordination frameworks
 - **Domain-Specific Language Innovation**: Designing specialized DSLs for MAS applications
 - **Intelligent Control Theory Application**: Integrating intelligent control principles for enhanced autonomous decision-making
 
-#### 🔬 Academic Contributions
+#### Academic Contributions
 1. **Methodological Innovation**: Introducing DSL-based modeling and control for multi-agent systems
 2. **Architectural Design**: Proposing cache-aware scheduling and event-driven communication mechanisms
 3. **Performance Optimization**: Implementing Radix Trie caching achieving 85%+ hit rates
 4. **Practical Value**: Providing complete smart city management application case studies
 
-#### 🚀 Future Research Directions
+#### Future Research Directions
 - **Collective Intelligence Implementation**: Researching DSL framework approaches to agent collective intelligence
 - **Intelligent Control Applications**: Applying intelligent control theory to DSL frameworks
 - **AI Alignment**: Ensuring agent behaviors align with human expectations
 - **Cross-Domain Extension**: Expanding framework applicability to healthcare, manufacturing, finance, and other domains
 
-#### 📊 Academic Value
+#### Academic Value
 - **Theoretical Contribution**: Providing new development paradigms for multi-agent systems
 - **Practical Significance**: Simplifying complex system development processes
 - **Technical Foresight**: Establishing foundations for future intelligent agent systems
 
-### 📖 References
+### References
 
 **Recent Publications (2025):**
 
