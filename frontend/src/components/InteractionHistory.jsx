@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import './InteractionHistory.css';
 import WebSocketService from './WebSocketService';
+import AgentInteractionFlow from './AgentInteractionFlow';
 
 const InteractionHistory = ({ events = [], onClear, onGenerateReport, readyState, connectionStats }) => {
   const [selectedSentEvent, setSelectedSentEvent] = useState(null);
@@ -493,6 +494,20 @@ const InteractionHistory = ({ events = [], onClear, onGenerateReport, readyState
                               {renderEventContent(sentEvent.type, sentEvent.payload)}
                             </div>
                           </div>
+                        </div>
+                      </div>
+
+                      {/* 智能体交互可视化 */}
+                      <div className="agent-visualization">
+                        <div className="detail-section-header">
+                          <span className="section-icon">🎯</span>
+                          <span className="section-title">智能体交互可视化 / Agent Interaction Visualization</span>
+                        </div>
+                        <div className="visualization-container">
+                          <AgentInteractionFlow 
+                            events={events} 
+                            selectedEvent={sentEvent}
+                          />
                         </div>
                       </div>
 
