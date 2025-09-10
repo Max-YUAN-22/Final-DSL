@@ -13,6 +13,7 @@ from agents.weather_agent import WeatherAgent
 from agents.sanitation_agent import SanitationAgent
 from agents.parking_agent import ParkingAgent
 from agents.safety_agent import SafetyAgent
+from agents.city_manager_agent import CityManagerAgent
 from backend.websocket_manager import manager as websocket_manager
 
 # 创建DSL实例并配置LLM
@@ -32,6 +33,7 @@ weather_agent = WeatherAgent(dsl_instance=dsl_instance)
 sanitation_agent = SanitationAgent(dsl_instance=dsl_instance)
 parking_agent = ParkingAgent(dsl_instance=dsl_instance)
 safety_agent = SafetyAgent(dsl_instance=dsl_instance)
+city_manager_agent = CityManagerAgent(dsl_instance=dsl_instance)
 
 def get_dsl_instance():
     return dsl_instance
@@ -74,6 +76,9 @@ def get_parking_agent():
 
 def get_safety_agent():
     return safety_agent
+
+def get_city_manager_agent():
+    return city_manager_agent
 
 def get_websocket_manager():
     return websocket_manager
