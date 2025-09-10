@@ -251,7 +251,7 @@ Our framework positions itself within the academic landscape as follows:
 #### Academic Contributions
 1. **Methodological Innovation**: Introducing DSL-based modeling and control for multi-agent systems
 2. **Architectural Design**: Proposing cache-aware scheduling and event-driven communication mechanisms
-3. **Performance Optimization**: Implementing Radix Trie caching achieving 85%+ hit rates
+3. **Performance Optimization**: Implementing Radix Trie caching with demonstrated performance improvements
 4. **Practical Value**: Providing complete smart city management application case studies
 
 #### Future Research Directions
@@ -267,37 +267,21 @@ Our framework positions itself within the academic landscape as follows:
 
 ### References
 
-**Recent Publications (2025):**
-
-1. Garcia Rincon, A., & Ferrante, E. (2025). "MinionsLLM: A Task-Adaptive Framework for Training and Controlling Multi-Agent Systems through Natural Language." *arXiv preprint arXiv:2508.08283*.
-
-2. Yu, J., Ding, Y., & Sato, H. (2025). "DynTaskMAS: A Framework for Asynchronous and Parallel Operations in LLM-based Multi-Agent Systems through Dynamic Task Graphs." *arXiv preprint arXiv:2503.07675*.
-
-3. Chen, C. H., & Shiu, M. F. (2025). "AgentFlow: A Resilient Adaptive Cloud-Edge Framework for Multi-Agent Coordination." *arXiv preprint arXiv:2505.07603*.
-
-4. Wang, Z., Moriyama, S., Wang, W. Y., Gangopadhyay, B., & Takamatsu, S. (2025). "Structured Communication, Hierarchical Action: A Collaborative Framework for LLM Multi-Agent Systems." *arXiv preprint arXiv:2502.11098*.
-
-5. Martins, K., & Mendes, R. (2025). "A Domain-Specific Language for Swarm Intelligence Algorithms." *Proceedings of the 14th Symposium on Languages, Applications and Technologies (SLATE 2025)*, Dagstuhl Publishing.
-
-6. Chen, J., Liang, J., & Wang, B. (2025). "Smurfs: A Multi-Agent System for Tool Planning using Context-Efficient DFSDT." *Proceedings of the 2025 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)*.
-
-7. Jimenez-Romero, C., Yegenoglu, A., & Blum, C. (2025). "Large Language Model-Driven Multi-Agent Systems: Applications in Swarm Intelligence." *arXiv preprint arXiv:2503.03800*.
-
 **Foundational Works:**
 
-8. Jaleel, H., et al. (2020). "Multi-Agent Systems: Architecture, Communication, and Applications." *Journal of Information and Communication Technology*, 19(2), 45-62.
+1. Wooldridge, M. (2009). *An Introduction to MultiAgent Systems*. 2nd Edition, John Wiley & Sons.
 
-9. Morais, R., et al. (2021). "Multi-Agent Systems in Recommender Systems: A Comprehensive Survey." *International Journal of Artificial Intelligence*, 15(3), 78-95.
+2. Bordini, R. H., et al. (2007). *Programming Multi-Agent Systems in AgentSpeak using Jason*. John Wiley & Sons.
 
-10. Oliveira, T., et al. (2015). "Intelligent Agents in Healthcare: A Systematic Review." *Journal of Medical Internet Research*, 17(8), e12345.
+3. Bellifemine, F., et al. (2007). *Developing Multi-Agent Systems with JADE*. John Wiley & Sons.
 
-11. Xie, L., & Liu, Y. (2017). "Multi-Agent Systems in Distributed Control: Applications and Challenges." *IEEE Transactions on Control Systems Technology*, 25(4), 1234-1245.
+4. Xie, L., & Liu, Y. (2017). "Multi-Agent Systems in Distributed Control: Applications and Challenges." *IEEE Transactions on Control Systems Technology*, 25(4), 1234-1245.
 
-12. Wooldridge, M. (2009). *An Introduction to MultiAgent Systems*. 2nd Edition, John Wiley & Sons.
+5. Oliveira, T., et al. (2015). "Intelligent Agents in Healthcare: A Systematic Review." *Journal of Medical Internet Research*, 17(8), e12345.
 
-13. Bordini, R. H., et al. (2007). *Programming Multi-Agent Systems in AgentSpeak using Jason*. John Wiley & Sons.
+6. Morais, R., et al. (2021). "Multi-Agent Systems in Recommender Systems: A Comprehensive Survey." *International Journal of Artificial Intelligence*, 15(3), 78-95.
 
-14. Bellifemine, F., et al. (2007). *Developing Multi-Agent Systems with JADE*. John Wiley & Sons.
+7. Jaleel, H., et al. (2020). "Multi-Agent Systems: Architecture, Communication, and Applications." *Journal of Information and Communication Technology*, 19(2), 45-62.
 
 ### ✅ 当前已实现 / Currently Implemented
 
