@@ -61,6 +61,46 @@ Multi-Agent DSL Framework is an innovative multi-agent domain-specific language 
 - ✅ **容错性**: 内置重试机制和故障转移 / Fault-tolerant: Built-in retry mechanisms and failover
 - ✅ **灵活性**: 支持多种LLM API和外部服务集成 / Flexible: Support for multiple LLM APIs and external service integration
 
+### 🤖 智能体架构 / Agent Architecture
+
+#### 🎯 城市管理主智能体 / City Manager Master Agent
+
+**核心职责 / Core Responsibilities:**
+- **协调 (Coordination)**: 统一调度各子智能体，确保任务有序执行
+- **监控 (Monitoring)**: 实时监控系统状态和各智能体运行情况
+- **决策 (Decision-making)**: 基于全局信息做出最优决策
+- **分发 (Distribution)**: 将复杂任务分解并分发给合适的子智能体
+
+**主要功能 / Main Functions:**
+- 接收用户任务并分析需求 (Receives user tasks and analyzes requirements)
+- 制定全局策略和协调方案 (Formulates global strategies and coordination plans)
+
+#### 🔧 专业子智能体 / Specialized Sub Agents
+
+**1. 交通管理子智能体 / Traffic Manager Sub Agent**
+- **路径规划 (Path Planning)**: 智能路径优化和导航
+- **交通监控 (Traffic Monitoring)**: 实时交通状况监测
+- **信号控制 (Signal Control)**: 智能交通信号管理
+
+**2. 天气监测子智能体 / Weather Monitor Sub Agent**
+- **天气监测 (Weather Monitoring)**: 实时天气数据收集
+- **灾害预警 (Disaster Warning)**: 极端天气预警系统
+- **风险评估 (Risk Assessment)**: 天气相关风险评估
+
+**3. 停车管理子智能体 / Parking Manager Sub Agent**
+- **停车监测 (Parking Monitoring)**: 停车位实时状态监控
+- **资源优化 (Resource Optimization)**: 停车资源智能分配
+- **动态定价 (Dynamic Pricing)**: 基于需求的动态定价策略
+
+**4. 安全监测子智能体 / Safety Monitor Sub Agent**
+- **安全检查 (Safety Inspection)**: 定期安全检查和评估
+- **风险监控 (Risk Monitoring)**: 实时安全风险监控
+- **应急响应 (Emergency Response)**: 紧急情况快速响应
+
+**子智能体职责 / Sub Agent Responsibilities:**
+- 接收Master Agent的任务分发 (Receives task distribution from Master Agent)
+- 执行专业领域的分析处理 (Performs analysis and processing in specialized domains)
+
 ### 详细架构图 / Detailed Architecture Diagrams
 
 #### 系统架构概览 / System Architecture Overview
